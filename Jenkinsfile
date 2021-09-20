@@ -1,7 +1,7 @@
 pipeline{
   agent any
     environment{
-      MY_HOME='Bangalore'
+      MY_HOME="Bangalore"
     stages{
       stage('print my location'){
         steps{
