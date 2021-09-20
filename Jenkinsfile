@@ -1,5 +1,5 @@
 pipeline{
-  agent any{
+  agent any
     environment{
       MY_HOME='Bangalore'
     stages{
@@ -11,8 +11,7 @@ pipeline{
     }
     }
   }
-}
-          
+         
           
 
         
