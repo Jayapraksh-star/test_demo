@@ -1,10 +1,10 @@
 pipeline{
 agent any
 stages{
- environment{
+stage('User'){
+  environment{
 MYHOME="Chennai"
 }
-stage('User'){
 steps{
 echo " userdefined variable $MYHOME "
 }
