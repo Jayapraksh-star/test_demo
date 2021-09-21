@@ -2,7 +2,7 @@ pipeline{
   agent any
     environment{
 	  name1="Jayaprakash"
-	  name2="A"
+	  name2=" A"
 	  }
     stages{
 	  stage('using + icon'){
