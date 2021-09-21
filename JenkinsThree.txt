@@ -6,12 +6,11 @@ pipeline{
     stages{
 	  stage('three steps')
 	       environment{
-           NAME="KUDLA"
+           NAME="UDUPI"
 	       }
 	   steps{
 	    script{
-         environment{
-         NAME="KUDLA"
+         NAME="Darmastala"
 	     }
 		echo"my hometown is $NAME and predefined is ${env.HOME)"
     	}
