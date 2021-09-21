@@ -12,7 +12,7 @@ pipeline{
 	    script{
          NAME="Darmastala"
 	     }
-		echo"my hometown is $NAME and predefined is ${env.HOME)"
+		echo"my hometown is $NAME"
     	}
      }
   }
