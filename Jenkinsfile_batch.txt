@@ -1,0 +1,12 @@
+pipeline{
+  agent any
+    stages{
+	 stage('bat_command'){
+	   steps{
+	      bat "dir"
+		  bat "cd"
+		  bat "ping google.com"
+    }
+   }
+  }
+ }		  
