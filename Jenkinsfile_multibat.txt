@@ -1,0 +1,14 @@
+pipeline{
+ agent any
+  stage{
+   stages('multibat'){
+    steps{
+	bat"""
+	dir
+	cd
+	ping www.google.com
+	"""
+	}
+	}
+	}
+	}
