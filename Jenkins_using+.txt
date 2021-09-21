@@ -1,0 +1,17 @@
+pipeline{
+  agent any
+    environment{
+	  name1="Jayaprakash"
+	  name2="A"
+	  }
+    stages{
+	  stage('using + icon'){
+        steps{
+		  script{
+		  Name=name1+name2
+          }
+		  echo "my name is Name"
+       }
+    }
+ }	
+} 
