@@ -1,0 +1,14 @@
+pipeline{
+  agent any
+  environment{
+    HOME="Mangalore"
+	}
+    stages{
+	  stage('user variable'){
+	    steps{
+		  echo "my native is $HOME"
+		  }
+		 }
+		}
+	  }
+	
