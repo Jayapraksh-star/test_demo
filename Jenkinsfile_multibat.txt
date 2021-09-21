@@ -1,7 +1,7 @@
 pipeline{
  agent any
-  stage{
-   stages('multibat'){
+  stages{
+   stage('multibat'){
     steps{
 	bat"""
 	dir
