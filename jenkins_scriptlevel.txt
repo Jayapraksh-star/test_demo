@@ -6,7 +6,7 @@ pipeline{
 		 script{
 		  HOME="mangalore"
 		   }
-		   echo "my home is $mangalore"
+		   echo "my home is $HOME"
 		   }
 		  }
         }
