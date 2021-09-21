@@ -1,0 +1,19 @@
+pipeline{
+  agent any
+   environment{
+      NAME="JP"
+	  }
+    stages{
+	  stage('In order'){
+	   environment{
+	    NAME="MANGALORE"
+		}
+	    steps{
+		environment{
+		 NAME="VS502"
+		 }
+		echo "my name is $NAME"
+	  	}
+	  }
+    }
+  }
