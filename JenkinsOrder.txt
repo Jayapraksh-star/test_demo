@@ -9,9 +9,6 @@ pipeline{
 	    NAME="MANGALORE"
 		}
 	    steps{
-		environment{
-		 NAME="VS502"
-		 }
 		echo "my name is $NAME"
 	  	}
 	  }
