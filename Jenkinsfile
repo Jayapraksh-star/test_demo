@@ -1,14 +1,10 @@
 pipeline{
-agent any
-stages{
-stage('User'){
-steps{
-    script{
-    environment{
-MYHOME="Chennai"
-echo " userdefined variable $MYHOME "
-}
-}
-}
-}
-}}
+  agent any
+    stages{
+      stage('HELLO WORLD'){
+       steps{
+          echo "Always welcomes you"
+     }
+    }
+   }
+ }
