@@ -10,7 +10,7 @@ pipeline{
 		  script{
 		  Name=name1+name2
           }
-		  echo "my name is Name"
+		  echo "my name is $Name"
        }
     }
  }	
