@@ -1,0 +1,12 @@
+pipeline{
+  agent any
+    stages{
+	  stage('stage level'){
+	    environment{
+		  HOME="Mangalore city"
+		    }
+		steps{
+		  echo "my home is $HOME"
+		  }
+		 }
+		}
