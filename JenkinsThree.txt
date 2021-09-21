@@ -1,0 +1,20 @@
+pipeline{
+  agent any
+   environment{
+     NAME="KUDLA"
+	 }
+    stages{
+	  stage('three steps')
+	       environment{
+           NAME="KUDLA"
+	       }
+	   steps{
+	    script{
+         environment{
+         NAME="KUDLA"
+	     }
+		echo"my hometown is $NAME and predefined is ${env.HOME)"
+    	}
+     }
+  }
+}
