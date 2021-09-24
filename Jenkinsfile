@@ -1,7 +1,7 @@
 pipeline{
   agent any
     stages{
-      stage('HELLO WORLD'){
+      stage('HELLO WORLD BOSS BYE'){
        steps{
           echo "Always welcomes you"
      }

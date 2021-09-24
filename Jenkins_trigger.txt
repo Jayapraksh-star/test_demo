@@ -3,8 +3,8 @@ pipeline{
     stages{
 	  stage('trigger job'){
 	    steps{
-		 build('job1')
-		 build('job2')
+		 build('bat_cmd_pipeline')
+		 build('bat_pipeline')
 	  }
 	}
   }
