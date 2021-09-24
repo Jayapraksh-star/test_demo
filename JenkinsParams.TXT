@@ -1,0 +1,13 @@
+Pipeline{
+  agent any
+    parameters{
+	  string(name:Jayaprakash)
+	  }
+    stages{
+	  stage('build'){
+	    step{
+		  echo "${params.Jayaprakash}"  
+		}
+	 }
+  }
+}
